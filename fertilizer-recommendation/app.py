@@ -52,27 +52,6 @@ set_bg("bg1.jpeg")
 
 
 # Load model and encoders
-# model = pickle.load(open('model/fertilizer_model.pkl', 'rb')) or use below code
-# import os
-# import pickle
-
-# BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
-# model_path = os.path.join(
-#     BASE_DIR, "model", "fertilizer_model.pkl"
-# )
-
-# with open(model_path, "rb") as file:
-#     model = pickle.load(file)
-
-# soil_encoder = pickle.load(open('model/soil_encoder.pkl', 'rb'))
-# crop_encoder = pickle.load(open('model/crop_encoder.pkl', 'rb'))
-# fertilizer_decoder = pickle.load(open('model/fert_encoder.pkl', 'rb'))
-
-# st.markdown(
-#     "<h1 style='text-align: center; color: white;'> Fertilizer Recommendation System</h1>",
-#     unsafe_allow_html=True
-# )
 
 
 import os
