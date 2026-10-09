@@ -5,8 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 # Load the data
-# df = pd.read_csv('data/f2.csv')
-# This makes Python search for the CSV relative to the folder containing your Python file.
+
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
