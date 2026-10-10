@@ -1,4 +1,4 @@
-## AgroNex: Next Generation Farming Intelligence
+# AgroNex: Next Generation Farming Intelligence
 
 ## Overview
 
@@ -18,10 +18,10 @@ The Smart Farming Assistant project provides three key datasets: the Crop Recomm
 # Crop Recommendation Model
 The Crop Recommendation Model utilizes machine learning algorithms to suggest the most suitable crops for farmers based on environmental and soil factors. By analyzing data such as soil nutrients, temperature, humidity, pH, and rainfall, the model provides tailored crop recommendations to ensure optimal growth and productivity. The model uses seven classification algorithms, with Random Forest achieving the highest accuracy of 99.55%. This helps farmers make informed decisions on crop selection, ensuring better yields and efficient farming practices.
 
-# Dataset
+## Dataset
 This dataset consists of 2200 rows in total. Each row has 8 columns representing Nitrogen, Phosphorous, Potassium, Temperature, Humidity, PH, Rainfall and Label NPK(Nitrogen, Phosphorous and Potassium) values represent the NPK values in the soil. Temperature, humidity and rainfall are the average values of the sorroundings environment respectively. PH is the PH value present in the soil. The Label column tells us the type of crop that's best suited to grow based on these conditions. Label is the value we will be predicting
 
-# Model Architecture
+## Model Architecture
 For the Crop Recommendation Model, seven classification algorithms were utilized to predict suitable crop recommendations. These algorithms include:
 
 - Decision Tree
@@ -41,11 +41,11 @@ These two models are integrated into the Smart Crop Recommendation System with P
 - Seven classification algorithms were evaluated for crop recommendation tasks.
 - The accuracy of each algorithm was assessed, with the Random Forest algorithm achieving the highest accuracy of 99.55%.
 
- ## Accuracy Comparison Graph of all models
+# Accuracy Comparison Graph of all models
 <img width="1007" height="559" alt="Accuracy-Comaprison" src="https://github.com/user-attachments/assets/93f94701-409d-49b9-b051-c56effc5cf40" />
 
 
-## Plant Disease Identification Model
+# Plant Disease Identification Model
 The Plant Disease Identification Model utilizes Convolutional Neural Networks (CNN) to accurately identify plant diseases from leaf images. Trained on the Plant Disease Image Dataset, which includes 70,295 images in the training set and 17,572 images in the validation set, the model covers 38 different plant disease classes across 14 crops. It detects and classifies diseases such as Apple Scab, Tomato Blight, and Powdery Mildew, offering farmers a reliable tool for early disease detection.
 
 ## Dataset
